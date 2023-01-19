@@ -48,7 +48,7 @@
         <?php
           foreach ($array_res as $component) {
         ?>
-        <div class="server">
+        <div class="component">
           <h2><?php echo $component->name; ?></h2>
           <p>
             Group: <?php echo $component->group->name ?>
